@@ -1,8 +1,0 @@
-<!-- cohan_launch.launch -->
-<launch>
-  <!-- Launch CoHAN navigation -->
-  <include file="$(find cohan_navigation)/launch/stage_pr2_launch.launch" />
-
-  <!-- Launch CoHAN planner for human layers -->
-  <!-- include file="$(find cohan_planner)/launch/cohan_planner.launch" -->
-</launch>
